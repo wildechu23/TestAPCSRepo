@@ -6,9 +6,9 @@ public class Demo {
       printLoop(5);
     }
 
-    System.out.println(arrDeepToString(create2DArray(5, 4, 4)).replace("}, ","},\\n"));
-    System.out.println(arrDeepToString(create2DArrayRandomized(6, 4, 4)).replace("}, ","},\n "));
-    System.out.println(arrDeepToString(create2DArrayRandomized(4, 10, 100)).replace("}, ", "},\n "));
+    // System.out.println(arrDeepToString(create2DArray(5, 4, 4)).replace("}, ","},\\n"));
+    // System.out.println(arrDeepToString(create2DArrayRandomized(6, 4, 4)).replace("}, ","},\n "));
+    // System.out.println(arrDeepToString(create2DArrayRandomized(4, 10, 100)).replace("}, ", "},\n "));
   }
 
   public static void printLoop(int n) {
