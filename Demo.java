@@ -33,7 +33,7 @@ public class Demo {
   }
 
   // print a 2d array as a string in the format {{0}, {1, 2} {1, 2, 12}}
-  public static String arrDeepToString(int[][] arr) {
+  public static String arrayDeepToString(int[][] arr) {
     String string = "";
     for (int i = 0; i < arr.length; i++) {
       string += arrToString(arr[i]);
